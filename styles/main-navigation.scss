@@ -3,10 +3,14 @@
 }
 .main-navigation__menu {
     display: flex;
+    padding: 0 0 0 20px;
+    margin: 0;
     list-style: none;
 }
 .main-navigation__menu-item {
     padding: 15px 25px;
+    position: relative;
+    height: auto;
 }
 .main-navigation__link {
     align-items: center;
@@ -22,8 +26,14 @@ ul > li > a:hover {
     background: #0172DC;
 }
 .main-navigation__menu > .main-navigation__menu-item > .main-navigation__floor {
+    display: none;
     list-style: none;
     padding: 0;
+}
+.main-navigation__menu > .main-navigation__menu-item:hover > .main-navigation__floor {
+    display: block;
+    // position: absolute;
+    padding-top: 20px;
 }
 .main-navigation__menu-button {
     display: none;
