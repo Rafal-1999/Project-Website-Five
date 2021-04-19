@@ -1,0 +1,66 @@
+.offer {
+  padding-bottom: 80px;
+}
+
+.offer .offer__flexbox {
+  --gap: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+}
+
+.offer .offer__flexbox .offer__flexbox-item {
+  padding-right: calc(var(--gap));
+}
+
+.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__image-1 {
+  width: 100%;
+  height: 115px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/services/oferta1.jpg");
+}
+
+.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__image-2 {
+  width: 100%;
+  height: 115px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/services/oferta2.jpg");
+}
+
+.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__image-3 {
+  width: 100%;
+  height: 115px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/services/oferta3.jpg");
+}
+
+.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__image-4 {
+  width: 100%;
+  height: 115px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/services/oferta4.jpg");
+}
+
+.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__image-5 {
+  width: 100%;
+  height: 115px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/services/oferta5.jpg");
+}
+
+.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__title {
+  text-align: center;
+  padding: 15px 0 20px 0;
+  margin: 0;
+}
+
+.offer .offer__flexbox .offer__flexbox-item:last-child {
+  padding-right: calc(- var(--gap));
+}
+/*# sourceMappingURL=offer.css.map */
