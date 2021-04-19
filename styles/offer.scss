@@ -1,5 +1,5 @@
 .offer {
-    padding-bottom: 80px;
+    padding-bottom: 100px;
     .offer__flexbox {
         --gap: 3%;
         display: flex;
@@ -17,7 +17,11 @@
             }
             .offer__flexbox__title {
                 text-align: center;
+                text-transform: uppercase;
                 padding: 15px 0 20px 0;
+                margin: 0;
+            }
+            .offer__flexbox__description {
                 margin: 0;
             }
         }
