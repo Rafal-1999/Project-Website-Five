@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/container.css">
-    <link rel="stylesheet" href="styles/line.css">
+    <link rel="stylesheet" href="styles/horizontal-line.css">
     <link rel="stylesheet" href="styles/main-titles.css">
     <link rel="stylesheet" href="styles/main-navigation.css">
     <link rel="stylesheet" href="styles/carousel.css">
@@ -96,7 +96,7 @@
             </div>
         </div>
     </section>
-    <div class="line"></div>
+    <div class="horizontal-line"></div>
     <div class="carousel-custom container">
         <div class="carousel-custom__box">
             <button data-target="#carouselExampleIndicators" data-slide-to="0"
@@ -156,19 +156,23 @@
             </article>
         </section>
         <section class="informations container">
-            <article class="informations__article">
+            <article class="informations__article informations__article-one">
                 <h3 class="main-title">Kalendarz</h3>
                 <img src="images/icons/kalendarz.png" class="informations__article-image" alt="Kalendarz">
-                <div class="informations__position">
-                    <p class="informations__position-item-flex informations__position-item--bold">24 June 2014</p>
-                    <p class="informations__position-item-flex informations__position-item--underline">2EN Events</p>
+                <div class="informations__position--flex">
+                    <p
+                        class="informations__position-item informations__position-item--bold informations__position-item--gap">
+                        24 June 2014</p>
+                    <p class="informations__position-item informations__position-item--underline">2EN Events</p>
                 </div>
                 <p class="informations__article-description">
                     This is excerpt. You will see the content as you enter the entry.
                 </p>
-                <div class="informations__position">
-                    <p class="informations__position-item-flex informations__position-item--bold">24 June 2014</p>
-                    <p class="informations__position-item-flex informations__position-item--underline">Meeting in Warsaw
+                <div class="informations__position--flex">
+                    <p
+                        class="informations__position-item informations__position-item--bold informations__position-item--gap">
+                        24 June 2014</p>
+                    <p class="informations__position-item informations__position-item--underline">Meeting in Warsaw
                     </p>
                 </div>
                 <p class="informations__article-description">
@@ -176,7 +180,7 @@
                 </p>
                 <a href="#" class="informations__article-more">Show more&gt;</a>
             </article>
-            <article class="informations__article">
+            <article class="informations__article informations__article-two">
                 <h3 class="main-title">Blog</h3>
                 <img src="images/icons/blog.png" class="informations__article-image" alt="Kalendarz">
                 <div class="informations__position">
@@ -198,22 +202,26 @@
                 <a href="#" class="informations__article-more">Show more&gt;</a>
             </article>
             <div class="founders">
-                <h3 class="founders__title">Founding members</h3>
-                <div class="founders__position">
-                    <img src="images/logo/logo_irm.jpg" class="founders__position-image" alt="IRM">
-                    <div class="line"></div>
-                    <p class="founders__position-information">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla interdum neque non faucibus
-                        placerat. Cras pulvinar libero quis erat commodo, ut consectetur dui condimentum.
-                    </p>
+                <p class="founders__title">Founding members</p>
+                <div class="founders__border">
+                    <div class="founders__position">
+                        <div class="founders__position-flex">
+                            <img src="images/logo/logo_irm.jpg" class="founders__position-logo" alt="IRM">
+                        </div>
+                        <div class="line"></div>
+                        <p class="founders__position-information">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla interdum neque non faucibus
+                            placerat. Cras pulvinar libero quis erat commodo, ut consectetur dui condimentum.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <div class="line"></div>
+        <div class="horizontal-line"></div>
         <section class="partners container">
             <h3 class="partners__header main-title">Partnerzy</h3>
         </section>
-        <div class="line"></div>
+        <div class="horizontal-line"></div>
     </main>
     <footer class="footer">
     </footer>

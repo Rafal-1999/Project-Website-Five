@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,aAAa,EAAE,cAAc;CAChC",
+    "sources": [
+        "horizontal-line.scss"
+    ],
+    "names": [],
+    "file": "horizontal-line.css"
+}
