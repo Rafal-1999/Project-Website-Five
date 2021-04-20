@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Strona internetowa w ramach rekrutacji.">
+    <link rel="shortcut icon" href="images/icons/logo_glowne.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous">
@@ -15,10 +16,13 @@
     <link rel="stylesheet" href="styles/container.css">
     <link rel="stylesheet" href="styles/horizontal-line.css">
     <link rel="stylesheet" href="styles/main-titles.css">
+    <link rel="stylesheet" href="styles/top.css">
     <link rel="stylesheet" href="styles/main-navigation.css">
     <link rel="stylesheet" href="styles/carousel.css">
     <link rel="stylesheet" href="styles/offer.css">
     <link rel="stylesheet" href="styles/informations.css">
+    <link rel="stylesheet" href="styles/partners.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/buttons-slider.js"></script>
@@ -28,10 +32,14 @@
     <div class="container">
         <header class="top">
             <img src="images/logo/logo_glowne.png" alt="Adidas">
-            <input type="search" name="search" placeholder="szukaj">
-            <img src="images/icons/szukaj.png" alt="">
-            <button class="">pl</button>
-            <button class="">en</button>
+            <div class="top__right">
+                <input type="search" name="search" placeholder="szukaj">
+                <img src="images/icons/szukaj.png" alt="">
+                <div class="top__right-buttons">
+                    <a href="#" class="top__right-button">pl</a>
+                    <a href="#" class="top__right-button">en</a>
+                </div>
+            </div>
         </header>
         <nav class="main-navigation">
             <ul class="main-navigation__menu">
@@ -218,12 +226,22 @@
             </div>
         </section>
         <div class="horizontal-line"></div>
-        <section class="partners container">
-            <h3 class="partners__header main-title">Partnerzy</h3>
+        <section class="partners">
+            <div class="container">
+                <h3 class="partners__header main-title">Partnerzy</h3>
+            </div>
         </section>
         <div class="horizontal-line"></div>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
+        <p class="footer__rights">
+            &copy; 2014 Cleantech Cluster South Poland. All rights reserved.
+        </p>
+        <p class="footer__created">Created by Weblider.eu</p>
+        <p class="footer__cookies">
+            This website uses cookies files. You can change cookies settings at your browser. Read more about cookies
+            policy.
+        </p>
     </footer>
 </body>
 

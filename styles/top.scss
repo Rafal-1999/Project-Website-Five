@@ -1,0 +1,24 @@
+.top {
+    margin-top: 15px;
+    position: relative;
+    .top__right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        .top__right-buttons {
+            display: inline-block;
+            margin-left: 50px;
+            .top__right-button {
+                color: #FFF;
+                background: #949494;
+                text-transform: uppercase;
+                padding: 5px;
+                margin: 0;
+                &:active {
+                    color: gray;
+                    background: #C5C5C5;
+                }
+            }
+        }
+    }
+}

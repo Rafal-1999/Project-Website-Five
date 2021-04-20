@@ -3,8 +3,13 @@ $Center: center;
 $Border: 1px solid #CFCFCF;
 .informations {
     display: $Flex;
+    margin-bottom: 40px;
     .informations__article {
         margin-right: 50px;
+        .informations__article-more {
+            color: #000;
+            font-style: italic;
+        }
     }
     .informations__article-one {
         flex: 2;

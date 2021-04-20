@@ -8,9 +8,8 @@
             padding-right: calc(var(--gap));
             @for $i from 1 through 5 {
                 .offer__flexbox__image-#{$i} {
-                    width: 100%;
                     height: 115px;
-                    background-size: contain;
+                    background-size: cover;
                     background-repeat: no-repeat;
                     background-image: url("../images/services/oferta#{$i}.jpg");
                 }
