@@ -1,12 +1,13 @@
 .footer {
   text-transform: uppercase;
+  padding: 40px 15px;
 }
 
-.footer .footer__rights {
-  margin: 20px 0 0 0;
+.footer .footer__content {
+  margin: 0;
 }
 
-.footer .footer__created, .footer .footer__cookies {
-  margin-bottom: 20px;
+.footer .footer__cookies {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=footer.css.map */
