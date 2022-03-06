@@ -1,0 +1,22 @@
+.carousel-custom {
+  padding-top: 30px;
+}
+
+.carousel-custom .carousel-custom__box {
+  text-align: center;
+}
+
+.carousel-custom .carousel-custom__box button {
+  width: 15px;
+  height: 15px;
+  background: #959492;
+  border-radius: 50px;
+  border: none;
+  margin: 0 10px;
+}
+
+.carousel-custom .carousel-custom__box button.active {
+  width: 15px;
+  height: 15px;
+  background: #04ABF0;
+}

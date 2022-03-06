@@ -1,0 +1,100 @@
+.informations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.informations .informations__article {
+  margin-right: 50px;
+}
+
+.informations .informations__article .informations__article-more {
+  color: #000;
+  font-style: italic;
+}
+
+.informations .informations__article-one {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.informations .informations__article-two {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.informations .informations__article-image {
+  margin: 30px 0 10px 0;
+}
+
+.informations .informations__position--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.informations .informations__position--flex .informations__position-item--gap {
+  margin-right: 40px;
+}
+
+.informations .informations__position-item {
+  margin: 0;
+}
+
+.informations .informations__position-item--bold {
+  font-weight: bold;
+}
+
+.informations .informations__position-item--underline {
+  text-decoration: underline;
+}
+
+.informations .founders {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.informations .founders .founders__title {
+  outline: 1px solid #0172DC;
+  background: #0172DC;
+  color: #FFF;
+  margin: 0;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+.informations .founders .founders__border {
+  border-left: 1px solid #CFCFCF;
+  border-bottom: 1px solid #CFCFCF;
+  border-right: 1px solid #CFCFCF;
+}
+
+.informations .founders .founders__border .founders__position {
+  margin: 0 20px;
+  padding-bottom: 50px;
+}
+
+.informations .founders .founders__border .founders__position .founders__position-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.informations .founders .founders__border .founders__position .founders__position-flex .founders__position-logo {
+  margin: 30px 0;
+}
+
+.informations .founders .founders__border .founders__position .line {
+  border-bottom: 1px solid #CFCFCF;
+}
+
+.informations .founders .founders__border .founders__position .founders__position-information {
+  margin: 15px 0 0 0;
+}
