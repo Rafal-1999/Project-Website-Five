@@ -1,12 +1,10 @@
-*, *::after, *::before {
-    box-sizing: border-box;
-}
 body {
     background: #EFF2F7;
 }
 a {
     text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
+    &:focus,
+    &:hover {
+        text-decoration: underline;
+    }
 }
