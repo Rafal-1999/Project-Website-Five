@@ -1,10 +1,10 @@
 body {
     background: #EFF2F7;
-}
-a {
-    text-decoration: none;
-    &:focus,
-    &:hover {
-        text-decoration: underline;
+    a {
+        text-decoration: none;
+        &:focus,
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
