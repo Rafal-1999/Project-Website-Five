@@ -2,6 +2,11 @@ body {
   background: #EFF2F7;
 }
 
+body .container,
+body .col {
+  padding: 0;
+}
+
 body a {
   text-decoration: none;
 }
