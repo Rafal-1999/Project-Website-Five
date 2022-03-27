@@ -1,3 +1,7 @@
+.slider-line {
+  border-bottom: 1px solid #000;
+}
+
 .carousel-custom {
   padding-top: 30px;
 }
