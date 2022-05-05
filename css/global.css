@@ -3,7 +3,7 @@ body {
 }
 
 body .container,
-body .col {
+body *[class^="col"] {
   padding: 0;
 }
 

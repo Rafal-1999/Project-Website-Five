@@ -1,7 +1,7 @@
 body {
     background: #EFF2F7;
     .container,
-    .col {
+    *[class^="col"] {
         padding: 0;
     }
     a {
