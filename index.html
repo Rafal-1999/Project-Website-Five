@@ -37,8 +37,12 @@
                     <div class="header__panel">
                         <div class="header__content">
                             <form class="header__form">
-                                <input type="search" name="search" placeholder="szukaj">
-                                <img src="images/icons/szukaj.png" alt="">
+                                <label class="visually-hidden" for="search">Wyszukaj</label>
+                                <input type="search" id="search" name="search" placeholder="szukaj">
+                                <button class="header__search-button">
+                                    <span class="visually-hidden">Szukaj</span>
+                                    <span class="header__search-icon" aria-hidden="true"></span>
+                                </button>
                             </form>
                             <div class="header__buttons-language">
                                 <a href="#" class="header__button">pl</a>
