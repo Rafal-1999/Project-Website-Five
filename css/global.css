@@ -7,6 +7,10 @@ body *[class^="col"] {
   padding: 0;
 }
 
+body .row {
+  margin: 0;
+}
+
 body a {
   text-decoration: none;
 }
