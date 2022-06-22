@@ -3,8 +3,6 @@
 }
 
 .main-navigation__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 0 0 0 20px;
   margin: 0;
@@ -18,9 +16,7 @@
 }
 
 .main-navigation__link {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-decoration: none;
   color: #000;
   text-transform: uppercase;

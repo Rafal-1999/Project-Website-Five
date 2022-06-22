@@ -25,7 +25,7 @@
             }
         }
         .offer__flexbox-item:last-child {
-            padding-right: calc(- var(--gap));
+            padding-right: -var(--gap);
         }
     }
 }

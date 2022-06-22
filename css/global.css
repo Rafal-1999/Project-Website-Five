@@ -1,20 +1,16 @@
 body {
   background: #EFF2F7;
 }
-
 body .container,
-body *[class^="col"] {
+body *[class^=col] {
   padding: 0;
 }
-
 body .row {
   margin: 0;
 }
-
 body a {
   text-decoration: none;
 }
-
 body a:focus, body a:hover {
   text-decoration: underline;
 }
