@@ -1,6 +1,6 @@
 $Flex: flex;
 $Center: center;
-$Border: 1px solid #CFCFCF;
+
 .informations {
     display: $Flex;
     margin-bottom: 40px;
@@ -36,34 +36,28 @@ $Border: 1px solid #CFCFCF;
         text-decoration: underline;
     }
     .founders {
-        flex: 2;
         .founders__title {
-            outline: 1px solid #0172DC;
             background: #0172DC;
             color: #FFF;
             margin: 0;
             padding: 10px 15px;
             text-transform: uppercase;
         }
-        .founders__border {
-            border-left: $Border;
-            border-bottom: $Border;
-            border-right: $Border;
-            .founders__position {
-                margin: 0 20px;
-                padding-bottom: 50px;
-                .founders__position-flex {
-                    display: $Flex;
-                    justify-content: $Center;
-                    .founders__position-logo {
+        .founders__box {
+            border: 1px solid #CFCFCF;
+            border-top: 0;
+            .founders__content {
+                margin: 0 20px 50px;
+                .founders__company {
+                    display: flex;
+                    justify-content: center;
+                    .founders__logo {
                         margin: 30px 0;
                     }
                 }
-                .line {
-                    border-bottom: 1px solid #CFCFCF;
-                }
-                .founders__position-information {
-                    margin: 15px 0 0 0;
+                .founders__information {
+                    padding-top: 15px;
+                    border-top: 1px solid #CFCFCF;
                 }
             }
         }

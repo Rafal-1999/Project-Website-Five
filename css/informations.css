@@ -33,36 +33,28 @@
 .informations .informations__position-item--underline {
   text-decoration: underline;
 }
-.informations .founders {
-  flex: 2;
-}
 .informations .founders .founders__title {
-  outline: 1px solid #0172DC;
   background: #0172DC;
   color: #FFF;
   margin: 0;
   padding: 10px 15px;
   text-transform: uppercase;
 }
-.informations .founders .founders__border {
-  border-left: 1px solid #CFCFCF;
-  border-bottom: 1px solid #CFCFCF;
-  border-right: 1px solid #CFCFCF;
+.informations .founders .founders__box {
+  border: 1px solid #CFCFCF;
+  border-top: 0;
 }
-.informations .founders .founders__border .founders__position {
-  margin: 0 20px;
-  padding-bottom: 50px;
+.informations .founders .founders__box .founders__content {
+  margin: 0 20px 50px;
 }
-.informations .founders .founders__border .founders__position .founders__position-flex {
+.informations .founders .founders__box .founders__content .founders__company {
   display: flex;
   justify-content: center;
 }
-.informations .founders .founders__border .founders__position .founders__position-flex .founders__position-logo {
+.informations .founders .founders__box .founders__content .founders__company .founders__logo {
   margin: 30px 0;
 }
-.informations .founders .founders__border .founders__position .line {
-  border-bottom: 1px solid #CFCFCF;
-}
-.informations .founders .founders__border .founders__position .founders__position-information {
-  margin: 15px 0 0 0;
+.informations .founders .founders__box .founders__content .founders__information {
+  padding-top: 15px;
+  border-top: 1px solid #CFCFCF;
 }
