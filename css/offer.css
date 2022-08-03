@@ -1,53 +1,46 @@
 .offer {
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
-.offer .offer__flexbox {
-  --gap: 3%;
-  display: flex;
-  padding-top: 30px;
+.offer .offer__title {
+  font-size: 30px;
+  margin-bottom: 30px;
 }
-.offer .offer__flexbox .offer__flexbox-item {
-  padding-right: calc(var(--gap));
-}
-.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__image-1 {
-  height: 115px;
-  background-size: cover;
-  background-repeat: no-repeat;
+.offer .offer__product-1 {
+  min-height: 104px;
   background-image: url("../images/services/oferta1.jpg");
-}
-.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__image-2 {
-  height: 115px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.offer .offer__product-2 {
+  min-height: 104px;
   background-image: url("../images/services/oferta2.jpg");
-}
-.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__image-3 {
-  height: 115px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.offer .offer__product-3 {
+  min-height: 104px;
   background-image: url("../images/services/oferta3.jpg");
-}
-.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__image-4 {
-  height: 115px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.offer .offer__product-4 {
+  min-height: 104px;
   background-image: url("../images/services/oferta4.jpg");
-}
-.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__image-5 {
-  height: 115px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../images/services/oferta5.jpg");
 }
-.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__title {
+.offer .offer__product-5 {
+  min-height: 104px;
+  background-image: url("../images/services/oferta5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.offer .offer__product-title {
+  font-size: 20px;
   text-align: center;
   text-transform: uppercase;
-  padding: 15px 0 20px 0;
-  margin: 0;
+  margin: 20px 0 30px;
 }
-.offer .offer__flexbox .offer__flexbox-item .offer__flexbox__description {
+.offer .offer__description {
   margin: 0;
-}
-.offer .offer__flexbox .offer__flexbox-item:last-child {
-  padding-right: -var(--gap);
 }

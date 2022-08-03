@@ -1,31 +1,24 @@
 .offer {
-    padding-bottom: 100px;
-    .offer__flexbox {
-        --gap: 3%;
-        display: flex;
-        padding-top: 30px;
-        .offer__flexbox-item {
-            padding-right: calc(var(--gap));
-            @for $i from 1 through 5 {
-                .offer__flexbox__image-#{$i} {
-                    height: 115px;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-image: url("../images/services/oferta#{$i}.jpg");
-                }
-            }
-            .offer__flexbox__title {
-                text-align: center;
-                text-transform: uppercase;
-                padding: 15px 0 20px 0;
-                margin: 0;
-            }
-            .offer__flexbox__description {
-                margin: 0;
-            }
+    margin-bottom: 100px;
+    .offer__title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    @for $i from 1 through 5 {
+        .offer__product-#{$i} {
+            min-height: 104px;
+            background-image: url("../images/services/oferta#{$i}.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
         }
-        .offer__flexbox-item:last-child {
-            padding-right: -var(--gap);
-        }
+    }
+    .offer__product-title {
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 20px 0 30px;
+    }
+    .offer__description {
+        margin: 0;
     }
 }
